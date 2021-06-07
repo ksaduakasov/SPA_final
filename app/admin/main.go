@@ -40,7 +40,7 @@ func migrate(){
 }
 
 func tokengen() {
-	privatePem, err := ioutil.ReadFile("C:\\Users\\aybarrel\\go\\alproject\\private.pem")
+	privatePem, err := ioutil.ReadFile("private.pem")
 	if err != nil {
 		log.Fatalln(err)
 	}
