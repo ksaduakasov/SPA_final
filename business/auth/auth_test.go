@@ -1,11 +1,11 @@
 package auth_test
 
 import (
+	"aitu/business/auth"
 	"crypto/rand"
 	"crypto/rsa"
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
-	"gitlab.com/altercolt/alproject/business/auth"
 	"testing"
 	"time"
 )

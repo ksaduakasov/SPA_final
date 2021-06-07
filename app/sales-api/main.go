@@ -1,18 +1,18 @@
 package main
 
 import (
+	"aitu/business/auth"
+	"aitu/foundation/database"
 	"context"
 	"crypto/rsa"
 	"expvar"
 	"fmt"
 	"github.com/ardanlabs/conf"
 	"github.com/dgrijalva/jwt-go"
-	"gitlab.com/altercolt/alproject/business/auth"
-	"gitlab.com/altercolt/alproject/foundation/database"
 	"io/ioutil"
 
+	"aitu/app/sales-api/handlers"
 	"github.com/pkg/errors"
-	"gitlab.com/altercolt/alproject/app/sales-api/handlers"
 	"log"
 	"net/http"
 	_ "net/http/pprof"
